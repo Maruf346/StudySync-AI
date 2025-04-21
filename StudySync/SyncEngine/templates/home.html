@@ -23,14 +23,15 @@
     <div class="container">
         <h2>Upload Student CSV</h2>
         <p>Upload a CSV file to auto-generate optimized study groups.</p>
-        <form id="upload-form" enctype="multipart/form-data">
-            <input type="file" accept=".csv" class="file-input" required>
+        <div class="upload-wrapper">
+            <label for="file-upload" class="upload-box">
+              <div class="upload-icon">📁</div>
+              <p class="upload-text">Drag & Drop your CSV here or <span class="upload-browse">Browse</span></p>
+              <input id="file-upload" type="file" accept=".csv" required>
+            </label>
             <button type="submit" class="analyze-btn">Analyze</button>
-        </form>
-
-        <!-- Optional: Download Sample -->
-        <p><a href="{% static 'sample/student_sample.csv' %}" class="sample-download">📄 Download Sample CSV</a></p>
-
+        </div>          
+        
         <!-- Result Section -->
         <div id="result-section" class="hidden">
             <h3>📊 Grouping Result</h3>

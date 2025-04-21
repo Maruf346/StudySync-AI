@@ -21,7 +21,7 @@ body {
     background: url('/static/images/bg.png') center/cover no-repeat;
     color: #fff;
     text-align: center;
-    padding: 80px 20px;
+    padding: 30px 20px;
     position: relative;
 }
 
@@ -49,51 +49,119 @@ body {
     font-size: 18px;
 }
 
-/* Upload Form */
-.file-input {
-    padding: 10px;
-    margin: 15px 0;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    width: 60%;
+.upload-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.upload-box {
+  border: 2px dashed #463221;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.upload-box:hover {
+  background-color: #f4f0ed;
+}
+
+.upload-icon {
+  font-size: 48px;
+  color: #463221;
+  margin-bottom: 10px;
+}
+
+.upload-text {
+  font-size: 16px;
+  color: #463221;
+}
+
+.upload-browse {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.upload-box input[type="file"] {
+  display: none;
 }
 
 .analyze-btn {
-    padding: 10px 25px;
-    margin-left: 10px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #463221;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .analyze-btn:hover {
-    background-color: #45a049;
+  background-color: #5b3d29;
 }
 
-/* Sample CSV Download Link */
-.sample-download {
-    display: block;
-    margin-top: 10px;
-    color: #0077cc;
-    text-decoration: none;
+@media (max-width: 600px) {
+  .upload-box {
+    padding: 30px;
+  }
+
+  .upload-text {
+    font-size: 14px;
+  }
+
+  .analyze-btn {
+    width: 100%;
+    font-size: 15px;
+  }
 }
 
-.sample-download:hover {
-    text-decoration: underline;
-}
-
-/* Result Section */
+/* Result Section - Minimalist Styling */
 #result-section {
     margin-top: 40px;
-    padding: 20px;
+    padding: 25px;
     background-color: #fff;
-    border: 2px dashed #ccc;
+    border: 1.5px solid #e0e0e0;
+    border-left: 5px solid #463221;
     border-radius: 10px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.hidden {
-    display: none;
+#result-section h3 {
+    color: #463221;
+    margin-bottom: 15px;
+}
+
+.result-content p {
+    color: #444;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .file-input {
+        width: 95%;
+    }
+
+    .analyze-btn {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .sample-download {
+        font-size: 13px;
+    }
 }
