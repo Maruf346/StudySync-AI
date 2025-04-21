@@ -1,0 +1,55 @@
+{% load static %}
+{% include "header.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+
+    <!-- Hero Banner -->
+    <div class="banner">
+        <div class="banner-content">
+            <h1>StudySync</h1>
+            <p>Smarter Study Grouping with AI</p>
+        </div>
+    </div>
+
+    <!-- Upload Section -->
+    <div class="container">
+        <h2>Upload Student CSV</h2>
+        <p>Upload a CSV file to auto-generate optimized study groups.</p>
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" accept=".csv" class="file-input" required>
+            <button type="submit" class="analyze-btn">Analyze</button>
+        </form>
+
+        <!-- Optional: Download Sample -->
+        <p><a href="{% static 'sample/student_sample.csv' %}" class="sample-download">📄 Download Sample CSV</a></p>
+
+        <!-- Result Section -->
+        <div id="result-section" class="hidden">
+            <h3>📊 Grouping Result</h3>
+            <div class="result-content">
+                <!-- AI result will be displayed here -->
+                <p>Results will be shown here after analysis.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle result section on form submission (demo behavior)
+        document.getElementById('upload-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('result-section').classList.remove('hidden');
+        });
+    </script>
+
+</body>
+</html>
+
+{% include "footer.html" %}
