@@ -18,7 +18,7 @@ body {
 
 /* Banner Section */
 .banner {
-    background: url('/static/images/bg.png') center/cover no-repeat;
+    background: url('/static/images/bg.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 30px 20px;
