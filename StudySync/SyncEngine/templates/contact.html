@@ -1,0 +1,98 @@
+{% load static %}
+{% include "header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - StudySync</title>
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Contact Us</h1>
+            <p><a href="/">Home</a> &gt; Contact</p>
+        </div>
+    </div>
+    
+<div class="contact-wrapper">
+
+
+    <div class="contact-card">
+
+        <div class="contact-left">
+            <h2>Get In Touch</h2>
+            <p class="description">
+                For questions about our services, deliveries, or partnerships — drop us a message. Our team is here for you!
+            </p>
+
+            <div class="info-section">
+                <div class="info-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Purbachal American City,<br>Kanchon 1460,<br>Rupganj, Narayanganj, Bangladesh</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>📞</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>(+880) 1865-464696<br>(+880) 1854-813801</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <span>🕒</span>
+                    <div>
+                        <h4>Hours</h4>
+                        <p>Mon–Fri: 8AM–10PM<br>Sat–Sun: 9AM–9PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+            <label>Name</label>
+            <input type="text" placeholder="John Doe" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="john@example.com" required>
+
+            <label>Subject</label>
+            <input type="text" placeholder="Optional">
+
+            <label>Message</label>
+            <textarea placeholder="Your message here..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+    <div class="footer-cards">
+        <div class="footer-card">
+            <h4>🤖 AI-Powered Grouping</h4>
+            <p>Smart study group formation using machine learning</p>
+        </div>
+        <div class="footer-card">
+            <h4>📚 Personalized Learning</h4>
+            <p>Study resources tailored to your academic needs</p>
+        </div>
+        <div class="footer-card">
+            <h4>🌐 Seamless Collaboration</h4>
+            <p>Communicate and share notes with your group</p>
+        </div>
+        <div class="footer-card">
+            <h4>⏰ Time Management Tools</h4>
+            <p>Plan your sessions and stay on track</p>
+        </div>
+    </div>
+    
+
+</div>
+
+{% include "footer.html" %}
+</body>
+</html>
