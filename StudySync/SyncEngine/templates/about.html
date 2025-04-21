@@ -1,0 +1,97 @@
+{% load static %}
+{% include "header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us - StudySync</title>
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+
+    <style>
+        .about-section {
+            background: #fff;
+            padding: 2.5rem 2rem 2rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+            margin-bottom: 2.5rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .about-section h2 {
+            margin-top: 0;
+            color: #2a2a2a;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .about-section p {
+            color: #444;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 1.2rem;
+        }
+        .about-section ul {
+            margin: 1rem 0 0 1.5rem;
+            color: #444;
+            font-size: 1.05rem;
+        }
+        .about-section li {
+            margin-bottom: 0.5rem;
+        }
+        </style>
+    
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>About Us</h1>
+            <p><a href="/">Home</a> &gt; About</p>
+        </div>
+    </div>
+    
+<div class="contact-wrapper">
+
+    <div class="about-section">
+        <h2>Our Mission</h2>
+        <p>
+            StudySync is dedicated to empowering students by making collaborative learning simple, effective, and accessible. Our platform leverages AI to connect learners, personalize study experiences, and foster academic growth.
+        </p>
+        <h2>What We Offer</h2>
+        <ul>
+            <li><strong>AI-Powered Grouping:</strong> Get matched with peers who share your academic goals and interests.</li>
+            <li><strong>Personalized Resources:</strong> Access study materials tailored to your courses and learning style.</li>
+            <li><strong>Collaboration Tools:</strong> Share notes, chat, and organize group sessions seamlessly.</li>
+            <li><strong>Time Management:</strong> Plan study sessions and track your progress efficiently.</li>
+        </ul>
+        <h2>Why Choose StudySync?</h2>
+        <p>
+            We believe that learning is better together. By combining technology with community, StudySync helps you stay motivated, organized, and successful in your studies.
+        </p>
+    </div>
+    
+
+    <div class="footer-cards">
+        <div class="footer-card">
+            <h4>🤖 AI-Powered Grouping</h4>
+            <p>Smart study group formation using machine learning</p>
+        </div>
+        <div class="footer-card">
+            <h4>📚 Personalized Learning</h4>
+            <p>Study resources tailored to your academic needs</p>
+        </div>
+        <div class="footer-card">
+            <h4>🌐 Seamless Collaboration</h4>
+            <p>Communicate and share notes with your group</p>
+        </div>
+        <div class="footer-card">
+            <h4>⏰ Time Management Tools</h4>
+            <p>Plan your sessions and stay on track</p>
+        </div>
+    </div>
+    
+
+</div>
+
+{% include "footer.html" %}
+</body>
+</html>
