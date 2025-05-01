@@ -1,0 +1,651 @@
+Name,StudyTime,SubjectInterest,SkillLevel,LearningStyle,GPA,AvailabilityDays,GoalType
+Sam Martinez,Night,Psychology,Beginner,Auditory,2.61,7,Skill Improvement
+Alex Smith,Afternoon,Computer Science,Intermediate,Verbal,3.46,1,Group Discussion
+Quinn Davis,Evening,Physics,Beginner,Visual,3.46,7,Assignment Completion
+Alex Brown,Evening,English Literature,Advanced,Visual,3.71,5,Exam Preparation
+Jamie Rodriguez,Afternoon,History,Intermediate,Visual,3.51,2,Skill Improvement
+Riley Davis,Evening,Psychology,Advanced,Kinesthetic,3.31,7,Project Collaboration
+Casey Jones,Night,Biology,Advanced,Kinesthetic,3.2,2,Assignment Completion
+Jamie Jones,Evening,Physics,Intermediate,Auditory,3.33,5,Group Discussion
+Taylor Rodriguez,Night,Economics,Beginner,Verbal,2.82,2,Concept Mastery
+Quinn Rodriguez,Afternoon,Computer Science,Advanced,Visual,3.18,4,Concept Mastery
+Quinn Martinez,Evening,History,Beginner,Practical,3.26,1,Group Discussion
+Jamie Smith,Morning,Computer Science,Advanced,Visual,3.51,4,Skill Improvement
+Drew Jones,Afternoon,Economics,Beginner,Visual,3.31,7,Skill Improvement
+Taylor Brown,Evening,Business Studies,Intermediate,Visual,3.21,6,Skill Improvement
+Morgan Miller,Afternoon,Economics,Advanced,Practical,3.69,5,Assignment Completion
+Jamie Martinez,Afternoon,Biology,Advanced,Kinesthetic,3.18,5,Exam Preparation
+Jordan Miller,Night,English Literature,Advanced,Verbal,2.31,7,Concept Mastery
+Sam Johnson,Afternoon,Mathematics,Intermediate,Kinesthetic,3.08,3,Assignment Completion
+Sam Davis,Morning,Biology,Intermediate,Verbal,3.93,2,Exam Preparation
+Quinn Johnson,Night,Computer Science,Intermediate,Verbal,3.4,1,Concept Mastery
+Jordan Rodriguez,Afternoon,Mathematics,Advanced,Verbal,3.31,2,Assignment Completion
+Jamie Johnson,Evening,Mathematics,Beginner,Practical,3.62,2,Skill Improvement
+Casey Rodriguez,Night,History,Advanced,Verbal,3.29,7,Concept Mastery
+Sam Smith,Morning,Psychology,Advanced,Verbal,2.69,7,Exam Preparation
+Sam Jones,Night,History,Intermediate,Verbal,3.25,6,Project Collaboration
+Drew Miller,Afternoon,Chemistry,Beginner,Visual,2.95,5,Skill Improvement
+Taylor Martinez,Night,Mathematics,Advanced,Practical,3.57,6,Concept Mastery
+Jamie Miller,Evening,Physics,Beginner,Auditory,3.41,1,Exam Preparation
+Drew Martinez,Morning,History,Advanced,Auditory,3.5,5,Group Discussion
+Morgan Garcia,Night,Business Studies,Advanced,Practical,3.19,5,Group Discussion
+Casey Smith,Night,Chemistry,Intermediate,Auditory,2.57,7,Project Collaboration
+Sam Johnson,Evening,Mathematics,Intermediate,Visual,3.07,6,Concept Mastery
+Casey Smith,Morning,Chemistry,Beginner,Practical,3.95,1,Skill Improvement
+Quinn Williams,Morning,Chemistry,Intermediate,Visual,3.64,1,Assignment Completion
+Jordan Rodriguez,Morning,English Literature,Advanced,Auditory,3.12,4,Skill Improvement
+Drew Martinez,Evening,Business Studies,Beginner,Auditory,4.0,4,Group Discussion
+Alex Jones,Morning,Physics,Advanced,Verbal,3.63,5,Skill Improvement
+Taylor Williams,Afternoon,Business Studies,Intermediate,Visual,2.98,7,Concept Mastery
+Drew Williams,Morning,Computer Science,Intermediate,Verbal,3.57,2,Group Discussion
+Riley Jones,Night,Business Studies,Advanced,Visual,2.31,1,Project Collaboration
+Alex Miller,Night,Computer Science,Advanced,Auditory,3.43,7,Exam Preparation
+Sam Jones,Evening,English Literature,Intermediate,Verbal,3.17,4,Exam Preparation
+Taylor Davis,Afternoon,Mathematics,Beginner,Verbal,2.19,1,Skill Improvement
+Jordan Rodriguez,Night,Economics,Beginner,Verbal,2.39,2,Exam Preparation
+Drew Williams,Evening,Chemistry,Beginner,Auditory,2.91,6,Skill Improvement
+Sam Martinez,Morning,Computer Science,Advanced,Kinesthetic,3.15,5,Project Collaboration
+Riley Jones,Night,Biology,Advanced,Visual,2.77,4,Concept Mastery
+Jamie Brown,Night,Chemistry,Advanced,Auditory,3.37,7,Project Collaboration
+Morgan Rodriguez,Morning,Psychology,Intermediate,Visual,3.91,3,Concept Mastery
+Taylor Smith,Evening,Mathematics,Beginner,Kinesthetic,2.62,5,Group Discussion
+Taylor Smith,Morning,Psychology,Beginner,Auditory,3.1,5,Project Collaboration
+Drew Brown,Afternoon,Biology,Beginner,Verbal,3.5,4,Exam Preparation
+Casey Johnson,Evening,Economics,Beginner,Kinesthetic,3.2,3,Project Collaboration
+Taylor Davis,Morning,Mathematics,Intermediate,Visual,3.66,1,Project Collaboration
+Taylor Rodriguez,Morning,Physics,Beginner,Auditory,2.99,1,Exam Preparation
+Quinn Williams,Afternoon,Biology,Intermediate,Verbal,3.24,3,Assignment Completion
+Riley Rodriguez,Morning,Physics,Beginner,Visual,2.77,4,Group Discussion
+Casey Williams,Night,Biology,Intermediate,Verbal,3.66,2,Exam Preparation
+Quinn Rodriguez,Night,Business Studies,Beginner,Practical,2.98,3,Exam Preparation
+Drew Jones,Night,Physics,Advanced,Visual,3.26,6,Concept Mastery
+Jamie Smith,Afternoon,Computer Science,Beginner,Verbal,2.45,6,Assignment Completion
+Jamie Johnson,Evening,Chemistry,Intermediate,Kinesthetic,3.03,2,Exam Preparation
+Sam Miller,Morning,Business Studies,Intermediate,Kinesthetic,2.95,3,Exam Preparation
+Quinn Williams,Morning,Physics,Beginner,Practical,2.97,3,Skill Improvement
+Taylor Williams,Night,Mathematics,Intermediate,Visual,3.54,5,Assignment Completion
+Quinn Davis,Evening,Economics,Beginner,Verbal,2.52,6,Group Discussion
+Jordan Jones,Night,Economics,Advanced,Kinesthetic,3.82,5,Skill Improvement
+Drew Martinez,Morning,Business Studies,Beginner,Practical,3.43,2,Assignment Completion
+Drew Miller,Afternoon,History,Beginner,Verbal,2.51,1,Assignment Completion
+Sam Jones,Evening,Chemistry,Advanced,Verbal,2.57,4,Assignment Completion
+Morgan Rodriguez,Evening,English Literature,Advanced,Verbal,3.56,3,Concept Mastery
+Taylor Smith,Evening,Business Studies,Advanced,Visual,2.64,2,Project Collaboration
+Drew Miller,Morning,Physics,Beginner,Auditory,3.82,6,Concept Mastery
+Jamie Martinez,Night,Physics,Intermediate,Kinesthetic,3.38,6,Skill Improvement
+Casey Johnson,Evening,Business Studies,Beginner,Practical,3.22,3,Skill Improvement
+Quinn Johnson,Evening,History,Beginner,Practical,3.56,1,Exam Preparation
+Drew Martinez,Morning,Chemistry,Beginner,Practical,4.0,7,Concept Mastery
+Alex Williams,Morning,Business Studies,Intermediate,Kinesthetic,2.64,4,Assignment Completion
+Riley Jones,Evening,Business Studies,Intermediate,Verbal,2.53,2,Exam Preparation
+Drew Smith,Afternoon,Mathematics,Intermediate,Kinesthetic,3.67,4,Skill Improvement
+Alex Smith,Morning,Economics,Advanced,Verbal,3.22,2,Assignment Completion
+Sam Smith,Night,Business Studies,Advanced,Auditory,3.03,6,Project Collaboration
+Sam Brown,Afternoon,Business Studies,Advanced,Practical,2.53,5,Skill Improvement
+Jamie Williams,Afternoon,English Literature,Advanced,Verbal,2.59,2,Group Discussion
+Casey Miller,Night,Chemistry,Intermediate,Practical,2.88,7,Group Discussion
+Morgan Davis,Night,Physics,Intermediate,Verbal,3.54,7,Exam Preparation
+Taylor Garcia,Afternoon,Psychology,Advanced,Verbal,3.02,1,Assignment Completion
+Drew Rodriguez,Evening,Chemistry,Intermediate,Visual,3.13,7,Exam Preparation
+Jordan Garcia,Morning,Biology,Advanced,Visual,2.83,7,Assignment Completion
+Casey Brown,Morning,Biology,Advanced,Verbal,3.34,7,Exam Preparation
+Alex Garcia,Night,Psychology,Intermediate,Visual,2.91,5,Project Collaboration
+Drew Williams,Night,Chemistry,Advanced,Visual,3.74,5,Project Collaboration
+Taylor Johnson,Evening,Physics,Intermediate,Visual,2.71,7,Group Discussion
+Drew Williams,Afternoon,Physics,Beginner,Auditory,3.85,1,Group Discussion
+Alex Johnson,Night,History,Intermediate,Kinesthetic,3.47,1,Concept Mastery
+Sam Williams,Morning,Chemistry,Beginner,Visual,2.43,7,Exam Preparation
+Jordan Smith,Morning,Business Studies,Beginner,Kinesthetic,2.67,2,Assignment Completion
+Morgan Rodriguez,Evening,History,Advanced,Kinesthetic,3.58,6,Concept Mastery
+Jordan Smith,Afternoon,Biology,Beginner,Verbal,2.87,4,Project Collaboration
+Jordan Smith,Night,Chemistry,Beginner,Kinesthetic,3.12,2,Skill Improvement
+Sam Martinez,Morning,Economics,Intermediate,Practical,2.91,6,Skill Improvement
+Drew Smith,Night,Business Studies,Beginner,Visual,3.37,7,Skill Improvement
+Jordan Martinez,Night,Mathematics,Advanced,Visual,3.25,2,Concept Mastery
+Jamie Jones,Morning,Biology,Intermediate,Verbal,2.94,6,Skill Improvement
+Morgan Johnson,Morning,Economics,Beginner,Visual,2.83,2,Group Discussion
+Jamie Davis,Night,Chemistry,Beginner,Verbal,3.37,1,Project Collaboration
+Jordan Jones,Evening,Psychology,Beginner,Auditory,3.23,6,Assignment Completion
+Morgan Brown,Morning,Psychology,Intermediate,Verbal,3.61,7,Skill Improvement
+Jamie Smith,Night,History,Beginner,Auditory,3.03,5,Project Collaboration
+Sam Johnson,Morning,Physics,Advanced,Kinesthetic,3.35,3,Project Collaboration
+Morgan Smith,Night,Biology,Advanced,Practical,2.44,7,Concept Mastery
+Jordan Miller,Night,History,Beginner,Verbal,3.21,2,Project Collaboration
+Sam Rodriguez,Night,Physics,Beginner,Verbal,3.55,6,Project Collaboration
+Quinn Martinez,Afternoon,Psychology,Intermediate,Visual,3.06,1,Group Discussion
+Morgan Smith,Evening,Economics,Intermediate,Practical,3.04,4,Group Discussion
+Morgan Brown,Afternoon,Computer Science,Intermediate,Kinesthetic,3.62,3,Assignment Completion
+Riley Williams,Afternoon,Economics,Beginner,Visual,4.0,7,Assignment Completion
+Morgan Jones,Evening,Computer Science,Beginner,Kinesthetic,3.45,7,Concept Mastery
+Jamie Johnson,Afternoon,Economics,Intermediate,Practical,3.95,6,Assignment Completion
+Sam Rodriguez,Night,Computer Science,Beginner,Auditory,2.73,6,Assignment Completion
+Jordan Williams,Night,Computer Science,Beginner,Practical,3.64,6,Project Collaboration
+Sam Miller,Afternoon,English Literature,Beginner,Kinesthetic,3.15,2,Group Discussion
+Casey Garcia,Morning,Business Studies,Beginner,Verbal,3.5,2,Exam Preparation
+Taylor Brown,Morning,Chemistry,Advanced,Visual,3.4,5,Exam Preparation
+Jamie Smith,Evening,Computer Science,Intermediate,Visual,3.44,2,Concept Mastery
+Taylor Davis,Afternoon,Psychology,Advanced,Auditory,2.82,2,Concept Mastery
+Jordan Rodriguez,Night,Biology,Intermediate,Auditory,2.87,4,Assignment Completion
+Taylor Martinez,Night,History,Advanced,Kinesthetic,2.97,5,Group Discussion
+Casey Garcia,Morning,Biology,Intermediate,Practical,2.94,4,Assignment Completion
+Taylor Williams,Evening,History,Beginner,Practical,3.41,7,Exam Preparation
+Sam Davis,Evening,Chemistry,Beginner,Visual,3.53,1,Assignment Completion
+Jordan Martinez,Morning,English Literature,Intermediate,Verbal,3.32,7,Project Collaboration
+Taylor Johnson,Morning,Economics,Intermediate,Verbal,3.46,4,Assignment Completion
+Drew Brown,Morning,History,Advanced,Auditory,2.88,4,Project Collaboration
+Jamie Davis,Night,Chemistry,Intermediate,Auditory,3.78,7,Exam Preparation
+Alex Jones,Night,History,Advanced,Visual,2.43,5,Skill Improvement
+Casey Brown,Afternoon,Physics,Beginner,Verbal,3.17,3,Skill Improvement
+Quinn Johnson,Evening,Psychology,Beginner,Verbal,3.06,6,Skill Improvement
+Taylor Garcia,Evening,Biology,Beginner,Auditory,2.64,5,Exam Preparation
+Quinn Johnson,Afternoon,Economics,Advanced,Visual,2.96,4,Concept Mastery
+Sam Johnson,Morning,Economics,Beginner,Visual,3.24,7,Exam Preparation
+Sam Garcia,Afternoon,Business Studies,Beginner,Practical,3.14,4,Exam Preparation
+Alex Martinez,Night,Economics,Beginner,Auditory,3.1,2,Project Collaboration
+Alex Brown,Night,Biology,Intermediate,Kinesthetic,3.37,1,Assignment Completion
+Taylor Garcia,Evening,History,Intermediate,Kinesthetic,3.36,6,Project Collaboration
+Sam Davis,Night,English Literature,Advanced,Kinesthetic,3.01,4,Group Discussion
+Riley Williams,Afternoon,History,Beginner,Practical,2.81,7,Exam Preparation
+Drew Garcia,Morning,Computer Science,Intermediate,Visual,2.64,4,Assignment Completion
+Casey Garcia,Afternoon,Business Studies,Intermediate,Auditory,2.93,7,Skill Improvement
+Jordan Garcia,Night,Chemistry,Beginner,Visual,3.61,6,Group Discussion
+Drew Martinez,Morning,English Literature,Advanced,Kinesthetic,2.43,5,Group Discussion
+Jordan Jones,Morning,Mathematics,Intermediate,Auditory,3.32,7,Skill Improvement
+Quinn Johnson,Morning,English Literature,Beginner,Visual,3.08,3,Exam Preparation
+Morgan Williams,Night,Computer Science,Beginner,Practical,3.14,5,Assignment Completion
+Alex Garcia,Morning,English Literature,Intermediate,Verbal,2.87,6,Project Collaboration
+Taylor Rodriguez,Morning,Computer Science,Intermediate,Verbal,3.09,5,Group Discussion
+Morgan Smith,Morning,Psychology,Beginner,Visual,3.45,7,Concept Mastery
+Alex Davis,Night,Physics,Intermediate,Practical,2.78,2,Exam Preparation
+Quinn Rodriguez,Morning,Computer Science,Intermediate,Visual,3.23,6,Skill Improvement
+Riley Garcia,Morning,Mathematics,Advanced,Practical,2.64,2,Exam Preparation
+Quinn Jones,Evening,Psychology,Beginner,Practical,2.83,2,Group Discussion
+Drew Brown,Night,Chemistry,Advanced,Verbal,3.02,6,Group Discussion
+Casey Johnson,Evening,English Literature,Advanced,Practical,3.64,6,Group Discussion
+Sam Jones,Afternoon,History,Advanced,Auditory,2.98,2,Exam Preparation
+Morgan Williams,Morning,Psychology,Advanced,Practical,3.1,6,Assignment Completion
+Sam Brown,Night,Business Studies,Intermediate,Auditory,3.43,1,Assignment Completion
+Morgan Miller,Night,English Literature,Beginner,Verbal,3.25,3,Assignment Completion
+Taylor Williams,Morning,Mathematics,Intermediate,Verbal,3.16,7,Group Discussion
+Taylor Davis,Morning,Economics,Intermediate,Practical,3.01,1,Group Discussion
+Taylor Garcia,Afternoon,Computer Science,Beginner,Kinesthetic,2.94,4,Exam Preparation
+Quinn Rodriguez,Morning,Biology,Beginner,Visual,3.09,6,Skill Improvement
+Jamie Miller,Afternoon,English Literature,Intermediate,Kinesthetic,3.19,6,Skill Improvement
+Drew Miller,Evening,History,Intermediate,Visual,2.65,3,Concept Mastery
+Taylor Williams,Night,Chemistry,Beginner,Visual,3.28,4,Exam Preparation
+Taylor Jones,Evening,Business Studies,Beginner,Visual,3.05,4,Concept Mastery
+Riley Rodriguez,Morning,Economics,Beginner,Visual,3.12,7,Exam Preparation
+Sam Brown,Afternoon,Psychology,Advanced,Visual,3.38,6,Project Collaboration
+Alex Johnson,Morning,Computer Science,Advanced,Practical,2.81,3,Group Discussion
+Jordan Johnson,Night,Biology,Advanced,Practical,3.44,2,Project Collaboration
+Quinn Jones,Afternoon,Mathematics,Advanced,Practical,3.36,1,Skill Improvement
+Jordan Miller,Night,Mathematics,Beginner,Practical,3.34,7,Assignment Completion
+Sam Miller,Evening,Economics,Advanced,Auditory,3.65,1,Exam Preparation
+Quinn Martinez,Morning,Physics,Advanced,Practical,3.34,3,Assignment Completion
+Casey Johnson,Afternoon,Business Studies,Intermediate,Visual,3.4,3,Concept Mastery
+Drew Smith,Evening,Psychology,Beginner,Practical,3.06,5,Exam Preparation
+Jordan Brown,Morning,Psychology,Beginner,Kinesthetic,2.44,6,Exam Preparation
+Casey Johnson,Evening,English Literature,Intermediate,Visual,2.86,6,Exam Preparation
+Jamie Garcia,Morning,Computer Science,Advanced,Practical,2.91,4,Concept Mastery
+Alex Smith,Afternoon,Biology,Intermediate,Kinesthetic,3.45,4,Assignment Completion
+Drew Brown,Evening,Physics,Advanced,Auditory,3.69,4,Concept Mastery
+Riley Martinez,Evening,Economics,Advanced,Verbal,3.39,3,Skill Improvement
+Morgan Brown,Night,History,Advanced,Practical,3.19,4,Concept Mastery
+Sam Jones,Afternoon,English Literature,Beginner,Kinesthetic,3.37,4,Group Discussion
+Taylor Garcia,Afternoon,Business Studies,Advanced,Visual,3.67,4,Concept Mastery
+Quinn Johnson,Afternoon,History,Beginner,Kinesthetic,3.26,6,Concept Mastery
+Jamie Martinez,Afternoon,English Literature,Intermediate,Practical,2.72,6,Assignment Completion
+Casey Brown,Afternoon,Physics,Advanced,Practical,3.14,1,Exam Preparation
+Jamie Davis,Morning,Physics,Intermediate,Visual,2.72,3,Exam Preparation
+Sam Smith,Morning,Chemistry,Intermediate,Visual,2.77,4,Assignment Completion
+Quinn Davis,Morning,Chemistry,Beginner,Auditory,3.18,4,Assignment Completion
+Taylor Jones,Afternoon,Business Studies,Advanced,Verbal,4.0,6,Concept Mastery
+Sam Jones,Night,English Literature,Intermediate,Verbal,2.47,3,Project Collaboration
+Taylor Johnson,Afternoon,Physics,Intermediate,Kinesthetic,3.45,4,Concept Mastery
+Taylor Smith,Night,Physics,Advanced,Kinesthetic,2.59,2,Project Collaboration
+Quinn Martinez,Morning,Computer Science,Advanced,Auditory,3.54,7,Assignment Completion
+Sam Johnson,Morning,English Literature,Beginner,Visual,2.96,3,Skill Improvement
+Drew Smith,Evening,Chemistry,Beginner,Auditory,2.17,5,Concept Mastery
+Morgan Martinez,Night,Physics,Beginner,Kinesthetic,3.25,3,Concept Mastery
+Quinn Brown,Afternoon,Psychology,Beginner,Auditory,2.89,4,Concept Mastery
+Riley Martinez,Afternoon,Chemistry,Beginner,Verbal,3.08,7,Project Collaboration
+Quinn Johnson,Afternoon,Computer Science,Advanced,Practical,3.02,4,Assignment Completion
+Drew Davis,Morning,Chemistry,Advanced,Visual,3.47,4,Concept Mastery
+Jamie Smith,Morning,Biology,Advanced,Verbal,3.35,5,Assignment Completion
+Alex Brown,Morning,Psychology,Advanced,Auditory,3.39,6,Group Discussion
+Quinn Rodriguez,Night,Computer Science,Intermediate,Auditory,3.38,7,Concept Mastery
+Morgan Smith,Night,Chemistry,Intermediate,Verbal,3.11,4,Skill Improvement
+Jamie Miller,Afternoon,English Literature,Advanced,Practical,2.75,7,Project Collaboration
+Quinn Davis,Evening,Physics,Beginner,Practical,3.89,1,Skill Improvement
+Casey Martinez,Evening,English Literature,Advanced,Verbal,2.98,4,Concept Mastery
+Riley Rodriguez,Evening,History,Beginner,Verbal,3.39,3,Skill Improvement
+Drew Brown,Evening,History,Beginner,Auditory,2.92,6,Assignment Completion
+Drew Smith,Night,Biology,Intermediate,Verbal,2.74,1,Concept Mastery
+Quinn Martinez,Morning,Business Studies,Intermediate,Auditory,2.96,1,Exam Preparation
+Sam Smith,Morning,Biology,Beginner,Auditory,3.17,3,Assignment Completion
+Quinn Brown,Morning,Computer Science,Beginner,Auditory,2.87,2,Project Collaboration
+Sam Brown,Afternoon,Chemistry,Beginner,Practical,2.6,2,Exam Preparation
+Jordan Miller,Afternoon,Physics,Advanced,Verbal,3.57,4,Group Discussion
+Jamie Martinez,Afternoon,Computer Science,Intermediate,Visual,3.77,2,Assignment Completion
+Jordan Johnson,Night,Computer Science,Advanced,Visual,3.24,5,Exam Preparation
+Taylor Miller,Afternoon,Business Studies,Beginner,Practical,2.86,7,Exam Preparation
+Morgan Martinez,Afternoon,Computer Science,Intermediate,Auditory,3.02,5,Assignment Completion
+Alex Brown,Evening,Chemistry,Beginner,Practical,3.22,1,Project Collaboration
+Alex Johnson,Afternoon,History,Intermediate,Practical,3.0,7,Concept Mastery
+Jamie Davis,Evening,Psychology,Advanced,Auditory,2.46,5,Concept Mastery
+Riley Smith,Night,Chemistry,Beginner,Visual,2.44,4,Exam Preparation
+Sam Garcia,Evening,Psychology,Advanced,Practical,3.26,6,Concept Mastery
+Morgan Garcia,Evening,Computer Science,Advanced,Practical,2.8,1,Assignment Completion
+Morgan Williams,Evening,Business Studies,Advanced,Practical,2.37,3,Assignment Completion
+Sam Miller,Evening,Mathematics,Beginner,Visual,3.49,3,Exam Preparation
+Casey Rodriguez,Afternoon,Business Studies,Advanced,Practical,3.65,7,Group Discussion
+Casey Rodriguez,Afternoon,Physics,Beginner,Kinesthetic,3.11,2,Concept Mastery
+Casey Smith,Evening,History,Advanced,Verbal,3.88,4,Skill Improvement
+Morgan Jones,Evening,Mathematics,Advanced,Verbal,3.33,3,Exam Preparation
+Drew Jones,Evening,Psychology,Advanced,Auditory,3.28,4,Project Collaboration
+Jamie Jones,Afternoon,Mathematics,Intermediate,Kinesthetic,3.61,4,Assignment Completion
+Quinn Brown,Afternoon,History,Advanced,Visual,2.68,4,Skill Improvement
+Casey Miller,Morning,English Literature,Advanced,Practical,3.57,2,Project Collaboration
+Casey Brown,Night,Biology,Beginner,Kinesthetic,3.8,6,Assignment Completion
+Sam Davis,Morning,Business Studies,Beginner,Practical,2.99,1,Skill Improvement
+Casey Rodriguez,Night,Business Studies,Advanced,Practical,3.32,4,Skill Improvement
+Riley Miller,Night,Computer Science,Advanced,Auditory,3.18,6,Concept Mastery
+Taylor Martinez,Evening,English Literature,Intermediate,Visual,3.71,5,Skill Improvement
+Riley Miller,Morning,English Literature,Beginner,Practical,2.45,3,Skill Improvement
+Alex Davis,Morning,Biology,Advanced,Kinesthetic,2.61,7,Project Collaboration
+Drew Davis,Evening,Chemistry,Beginner,Practical,3.3,2,Skill Improvement
+Jamie Johnson,Afternoon,English Literature,Advanced,Auditory,3.36,5,Exam Preparation
+Jordan Garcia,Afternoon,Economics,Advanced,Auditory,2.81,3,Skill Improvement
+Sam Brown,Morning,Computer Science,Intermediate,Visual,3.48,4,Group Discussion
+Quinn Williams,Afternoon,English Literature,Beginner,Verbal,3.19,4,Group Discussion
+Jamie Garcia,Afternoon,Biology,Beginner,Practical,2.75,2,Project Collaboration
+Morgan Davis,Morning,Business Studies,Beginner,Auditory,3.71,3,Group Discussion
+Riley Johnson,Night,History,Advanced,Visual,3.16,1,Exam Preparation
+Casey Martinez,Morning,Physics,Beginner,Kinesthetic,3.05,3,Project Collaboration
+Quinn Johnson,Morning,Mathematics,Advanced,Visual,3.26,6,Group Discussion
+Riley Davis,Afternoon,Biology,Advanced,Kinesthetic,2.96,7,Exam Preparation
+Riley Johnson,Afternoon,Business Studies,Intermediate,Verbal,3.41,5,Assignment Completion
+Sam Williams,Morning,Psychology,Beginner,Auditory,3.96,3,Group Discussion
+Casey Rodriguez,Evening,Economics,Intermediate,Verbal,2.78,5,Group Discussion
+Morgan Johnson,Night,Biology,Beginner,Kinesthetic,2.85,3,Exam Preparation
+Morgan Martinez,Night,Economics,Beginner,Visual,3.3,4,Concept Mastery
+Quinn Martinez,Afternoon,Chemistry,Advanced,Practical,2.76,2,Concept Mastery
+Casey Davis,Evening,Psychology,Advanced,Visual,3.6,2,Skill Improvement
+Riley Miller,Night,Mathematics,Intermediate,Auditory,3.03,4,Concept Mastery
+Alex Jones,Night,Computer Science,Advanced,Visual,2.69,7,Skill Improvement
+Quinn Rodriguez,Afternoon,Chemistry,Beginner,Kinesthetic,3.72,4,Exam Preparation
+Casey Davis,Evening,Business Studies,Intermediate,Kinesthetic,3.55,4,Group Discussion
+Alex Martinez,Afternoon,History,Advanced,Auditory,2.95,2,Skill Improvement
+Morgan Davis,Morning,Biology,Advanced,Kinesthetic,2.81,4,Group Discussion
+Drew Davis,Evening,Psychology,Advanced,Kinesthetic,3.71,7,Exam Preparation
+Jordan Smith,Night,Computer Science,Intermediate,Auditory,3.21,6,Exam Preparation
+Taylor Smith,Evening,Physics,Beginner,Practical,3.1,6,Project Collaboration
+Jamie Brown,Afternoon,Psychology,Beginner,Verbal,3.78,4,Exam Preparation
+Quinn Jones,Night,Biology,Advanced,Verbal,3.55,1,Concept Mastery
+Quinn Smith,Morning,Psychology,Intermediate,Auditory,3.33,1,Assignment Completion
+Jamie Williams,Morning,Business Studies,Advanced,Visual,3.36,3,Concept Mastery
+Jamie Miller,Night,Physics,Beginner,Kinesthetic,2.73,7,Skill Improvement
+Morgan Williams,Night,Physics,Beginner,Verbal,2.84,7,Project Collaboration
+Taylor Williams,Afternoon,Physics,Advanced,Practical,3.43,5,Concept Mastery
+Morgan Martinez,Afternoon,Biology,Advanced,Auditory,2.72,4,Project Collaboration
+Casey Garcia,Morning,Physics,Intermediate,Visual,2.68,5,Project Collaboration
+Alex Jones,Afternoon,Psychology,Advanced,Visual,2.88,3,Exam Preparation
+Riley Smith,Night,Business Studies,Advanced,Practical,3.8,7,Skill Improvement
+Riley Miller,Night,Computer Science,Beginner,Auditory,3.03,1,Skill Improvement
+Jordan Rodriguez,Afternoon,Biology,Advanced,Verbal,3.15,7,Skill Improvement
+Jamie Davis,Afternoon,Psychology,Beginner,Auditory,2.98,3,Assignment Completion
+Taylor Smith,Evening,English Literature,Intermediate,Auditory,2.7,1,Exam Preparation
+Sam Davis,Night,History,Beginner,Practical,3.1,7,Assignment Completion
+Morgan Rodriguez,Afternoon,History,Intermediate,Verbal,3.4,5,Skill Improvement
+Jordan Smith,Evening,History,Intermediate,Kinesthetic,3.46,7,Concept Mastery
+Sam Jones,Night,Chemistry,Intermediate,Practical,3.11,6,Concept Mastery
+Quinn Davis,Afternoon,Chemistry,Beginner,Visual,3.78,2,Skill Improvement
+Alex Rodriguez,Night,History,Beginner,Verbal,3.95,1,Group Discussion
+Quinn Johnson,Night,Business Studies,Advanced,Kinesthetic,3.04,5,Skill Improvement
+Jordan Rodriguez,Night,Psychology,Beginner,Verbal,2.77,6,Project Collaboration
+Alex Rodriguez,Morning,History,Beginner,Kinesthetic,3.63,2,Group Discussion
+Alex Williams,Night,Economics,Advanced,Verbal,2.8,1,Project Collaboration
+Riley Davis,Night,Psychology,Intermediate,Practical,3.2,6,Skill Improvement
+Riley Smith,Night,Computer Science,Beginner,Kinesthetic,3.03,4,Group Discussion
+Taylor Brown,Morning,Biology,Intermediate,Visual,3.58,4,Assignment Completion
+Jamie Smith,Morning,Biology,Intermediate,Practical,2.74,6,Skill Improvement
+Alex Rodriguez,Night,History,Beginner,Verbal,2.79,2,Exam Preparation
+Jamie Jones,Night,Computer Science,Beginner,Practical,3.35,4,Project Collaboration
+Morgan Johnson,Night,Chemistry,Advanced,Auditory,3.54,5,Skill Improvement
+Taylor Smith,Night,Chemistry,Advanced,Verbal,4.0,3,Group Discussion
+Riley Smith,Afternoon,Biology,Beginner,Practical,3.41,3,Project Collaboration
+Sam Miller,Morning,Chemistry,Beginner,Verbal,3.31,3,Exam Preparation
+Jordan Johnson,Evening,Psychology,Beginner,Kinesthetic,3.28,2,Exam Preparation
+Morgan Garcia,Night,Chemistry,Beginner,Practical,3.46,4,Group Discussion
+Drew Davis,Morning,Physics,Advanced,Verbal,3.43,5,Project Collaboration
+Morgan Smith,Morning,Psychology,Intermediate,Visual,3.32,7,Group Discussion
+Taylor Davis,Evening,Physics,Beginner,Kinesthetic,4.0,1,Assignment Completion
+Morgan Smith,Evening,Business Studies,Advanced,Auditory,3.41,4,Assignment Completion
+Quinn Johnson,Afternoon,Economics,Intermediate,Practical,3.53,6,Exam Preparation
+Sam Davis,Night,Economics,Advanced,Verbal,2.7,5,Skill Improvement
+Alex Davis,Night,Business Studies,Intermediate,Auditory,2.92,7,Group Discussion
+Sam Jones,Afternoon,Psychology,Beginner,Practical,3.2,7,Assignment Completion
+Taylor Rodriguez,Evening,Biology,Beginner,Verbal,2.74,7,Group Discussion
+Casey Brown,Evening,Chemistry,Intermediate,Auditory,2.58,4,Concept Mastery
+Jamie Miller,Morning,Chemistry,Intermediate,Visual,2.88,5,Exam Preparation
+Jamie Miller,Night,English Literature,Beginner,Auditory,3.8,3,Project Collaboration
+Jamie Smith,Afternoon,Business Studies,Beginner,Auditory,3.12,3,Assignment Completion
+Jamie Davis,Morning,Physics,Advanced,Practical,3.81,4,Assignment Completion
+Alex Jones,Evening,Mathematics,Advanced,Practical,3.21,1,Concept Mastery
+Morgan Johnson,Morning,English Literature,Advanced,Kinesthetic,3.71,1,Skill Improvement
+Quinn Garcia,Afternoon,Physics,Advanced,Practical,3.46,1,Exam Preparation
+Casey Smith,Afternoon,Business Studies,Intermediate,Verbal,3.82,6,Assignment Completion
+Casey Smith,Evening,Physics,Intermediate,Practical,2.87,5,Skill Improvement
+Riley Miller,Morning,Psychology,Beginner,Verbal,3.55,6,Skill Improvement
+Drew Smith,Evening,Mathematics,Advanced,Auditory,2.49,7,Group Discussion
+Drew Jones,Evening,Psychology,Intermediate,Visual,3.45,1,Skill Improvement
+Jamie Smith,Afternoon,Computer Science,Beginner,Visual,2.98,6,Exam Preparation
+Taylor Brown,Evening,Economics,Intermediate,Visual,3.41,1,Skill Improvement
+Jordan Garcia,Morning,Chemistry,Intermediate,Auditory,3.88,2,Skill Improvement
+Riley Brown,Morning,Computer Science,Beginner,Visual,3.74,7,Group Discussion
+Casey Jones,Night,Biology,Beginner,Auditory,2.95,2,Assignment Completion
+Alex Miller,Evening,Psychology,Beginner,Visual,2.6,5,Concept Mastery
+Casey Brown,Afternoon,Psychology,Beginner,Practical,4.0,3,Group Discussion
+Sam Rodriguez,Afternoon,Computer Science,Intermediate,Kinesthetic,2.77,6,Concept Mastery
+Alex Rodriguez,Night,Chemistry,Intermediate,Visual,3.76,6,Skill Improvement
+Jamie Williams,Morning,Economics,Intermediate,Auditory,3.2,7,Exam Preparation
+Drew Miller,Morning,Biology,Intermediate,Visual,3.32,5,Assignment Completion
+Jamie Brown,Evening,Chemistry,Advanced,Auditory,3.32,3,Concept Mastery
+Jamie Johnson,Afternoon,Chemistry,Advanced,Kinesthetic,2.6,5,Group Discussion
+Riley Rodriguez,Afternoon,Mathematics,Advanced,Practical,3.23,4,Project Collaboration
+Alex Jones,Evening,Economics,Beginner,Visual,3.39,7,Exam Preparation
+Morgan Smith,Morning,Physics,Intermediate,Auditory,3.41,2,Concept Mastery
+Riley Johnson,Morning,Business Studies,Beginner,Auditory,2.64,3,Concept Mastery
+Casey Brown,Afternoon,English Literature,Advanced,Visual,3.38,4,Exam Preparation
+Morgan Martinez,Morning,Psychology,Intermediate,Practical,2.69,2,Concept Mastery
+Morgan Rodriguez,Night,Chemistry,Beginner,Auditory,3.79,3,Concept Mastery
+Quinn Smith,Afternoon,English Literature,Intermediate,Auditory,3.28,3,Skill Improvement
+Morgan Williams,Afternoon,Business Studies,Intermediate,Auditory,3.59,5,Group Discussion
+Jordan Smith,Evening,English Literature,Intermediate,Visual,2.86,5,Skill Improvement
+Jordan Smith,Morning,Biology,Intermediate,Auditory,3.34,3,Skill Improvement
+Riley Rodriguez,Night,Psychology,Intermediate,Auditory,3.4,3,Skill Improvement
+Morgan Brown,Afternoon,Psychology,Advanced,Practical,3.47,5,Project Collaboration
+Sam Martinez,Morning,Biology,Intermediate,Verbal,2.75,2,Concept Mastery
+Drew Johnson,Morning,Business Studies,Advanced,Kinesthetic,3.23,1,Concept Mastery
+Drew Johnson,Afternoon,Chemistry,Intermediate,Practical,3.26,2,Group Discussion
+Alex Williams,Morning,Business Studies,Beginner,Practical,3.47,6,Skill Improvement
+Jordan Davis,Afternoon,Economics,Advanced,Visual,3.5,4,Group Discussion
+Alex Brown,Evening,History,Beginner,Kinesthetic,2.82,6,Skill Improvement
+Alex Miller,Night,Biology,Beginner,Practical,3.56,1,Exam Preparation
+Riley Rodriguez,Evening,Economics,Intermediate,Verbal,3.59,4,Exam Preparation
+Jamie Smith,Evening,Physics,Advanced,Practical,3.27,1,Project Collaboration
+Sam Miller,Evening,Chemistry,Intermediate,Verbal,3.03,5,Assignment Completion
+Casey Davis,Morning,English Literature,Advanced,Practical,3.01,3,Group Discussion
+Jordan Davis,Evening,Computer Science,Advanced,Auditory,3.73,7,Group Discussion
+Casey Jones,Morning,Chemistry,Advanced,Verbal,3.2,3,Group Discussion
+Casey Miller,Morning,Biology,Intermediate,Verbal,3.55,6,Skill Improvement
+Sam Rodriguez,Night,Chemistry,Advanced,Visual,2.97,5,Group Discussion
+Sam Williams,Night,Business Studies,Advanced,Verbal,3.57,3,Exam Preparation
+Alex Jones,Evening,Computer Science,Beginner,Verbal,3.8,6,Group Discussion
+Sam Garcia,Afternoon,Business Studies,Beginner,Kinesthetic,2.59,5,Group Discussion
+Alex Martinez,Evening,Business Studies,Advanced,Visual,3.26,5,Exam Preparation
+Drew Brown,Morning,Business Studies,Beginner,Visual,2.71,6,Concept Mastery
+Alex Davis,Night,English Literature,Intermediate,Visual,3.41,1,Exam Preparation
+Jordan Jones,Evening,History,Beginner,Kinesthetic,3.52,7,Concept Mastery
+Jamie Jones,Afternoon,Chemistry,Intermediate,Verbal,2.34,2,Exam Preparation
+Jamie Williams,Night,Business Studies,Beginner,Practical,4.0,1,Concept Mastery
+Quinn Williams,Evening,Economics,Beginner,Practical,3.54,1,Project Collaboration
+Casey Miller,Morning,English Literature,Advanced,Verbal,3.78,2,Group Discussion
+Taylor Davis,Afternoon,History,Intermediate,Practical,3.17,1,Exam Preparation
+Riley Smith,Night,Physics,Beginner,Kinesthetic,2.98,6,Group Discussion
+Drew Smith,Morning,Physics,Advanced,Verbal,3.38,1,Skill Improvement
+Alex Smith,Night,Psychology,Intermediate,Verbal,3.72,4,Assignment Completion
+Casey Miller,Evening,English Literature,Beginner,Kinesthetic,3.35,2,Assignment Completion
+Taylor Johnson,Morning,Mathematics,Intermediate,Kinesthetic,3.22,3,Assignment Completion
+Riley Jones,Night,Psychology,Intermediate,Kinesthetic,3.37,2,Skill Improvement
+Riley Rodriguez,Afternoon,English Literature,Intermediate,Visual,2.75,1,Group Discussion
+Riley Davis,Afternoon,Psychology,Advanced,Verbal,2.71,5,Concept Mastery
+Quinn Brown,Morning,Psychology,Beginner,Auditory,3.23,4,Skill Improvement
+Taylor Davis,Night,History,Advanced,Verbal,2.98,7,Exam Preparation
+Quinn Davis,Morning,Chemistry,Intermediate,Verbal,3.56,2,Exam Preparation
+Alex Johnson,Evening,Business Studies,Intermediate,Verbal,3.18,5,Assignment Completion
+Morgan Miller,Night,Biology,Intermediate,Auditory,3.89,5,Group Discussion
+Quinn Brown,Afternoon,Economics,Intermediate,Auditory,3.32,1,Concept Mastery
+Taylor Jones,Night,Computer Science,Intermediate,Verbal,3.18,5,Project Collaboration
+Morgan Johnson,Morning,Physics,Beginner,Visual,2.42,7,Group Discussion
+Drew Smith,Evening,Psychology,Beginner,Auditory,3.16,1,Group Discussion
+Drew Davis,Morning,History,Advanced,Auditory,3.99,2,Project Collaboration
+Jordan Smith,Morning,Chemistry,Intermediate,Verbal,2.2,6,Concept Mastery
+Alex Williams,Afternoon,English Literature,Advanced,Practical,3.14,1,Group Discussion
+Alex Williams,Afternoon,Biology,Beginner,Auditory,2.89,5,Exam Preparation
+Riley Davis,Afternoon,Chemistry,Intermediate,Kinesthetic,3.31,1,Project Collaboration
+Taylor Jones,Evening,Business Studies,Advanced,Practical,2.77,7,Exam Preparation
+Alex Martinez,Night,History,Beginner,Kinesthetic,3.9,3,Skill Improvement
+Jamie Rodriguez,Morning,Biology,Intermediate,Kinesthetic,3.09,3,Concept Mastery
+Jamie Martinez,Afternoon,Mathematics,Beginner,Practical,2.72,5,Project Collaboration
+Alex Smith,Night,Mathematics,Advanced,Kinesthetic,3.74,7,Project Collaboration
+Casey Williams,Evening,Computer Science,Intermediate,Verbal,3.01,2,Assignment Completion
+Sam Brown,Evening,Physics,Intermediate,Practical,3.24,7,Assignment Completion
+Sam Garcia,Afternoon,Physics,Advanced,Kinesthetic,3.21,6,Assignment Completion
+Casey Garcia,Night,Computer Science,Beginner,Auditory,3.57,4,Group Discussion
+Taylor Smith,Afternoon,Psychology,Advanced,Practical,2.77,3,Assignment Completion
+Morgan Rodriguez,Morning,Chemistry,Beginner,Visual,3.46,2,Skill Improvement
+Morgan Smith,Afternoon,Mathematics,Beginner,Kinesthetic,2.64,4,Group Discussion
+Sam Davis,Afternoon,Economics,Intermediate,Kinesthetic,3.01,5,Exam Preparation
+Riley Brown,Afternoon,Chemistry,Intermediate,Visual,3.09,4,Exam Preparation
+Morgan Davis,Morning,Chemistry,Advanced,Verbal,2.98,1,Concept Mastery
+Jordan Martinez,Afternoon,Business Studies,Advanced,Practical,2.85,7,Concept Mastery
+Quinn Davis,Morning,Biology,Advanced,Verbal,3.42,4,Exam Preparation
+Taylor Garcia,Morning,History,Advanced,Kinesthetic,2.15,4,Assignment Completion
+Jordan Johnson,Evening,Computer Science,Advanced,Practical,3.64,6,Exam Preparation
+Quinn Martinez,Afternoon,Chemistry,Intermediate,Verbal,2.4,6,Concept Mastery
+Jamie Garcia,Night,Chemistry,Advanced,Auditory,3.38,4,Project Collaboration
+Taylor Jones,Afternoon,Business Studies,Advanced,Visual,3.24,6,Group Discussion
+Morgan Martinez,Morning,History,Advanced,Practical,3.53,2,Concept Mastery
+Jamie Williams,Afternoon,Mathematics,Advanced,Kinesthetic,3.66,1,Assignment Completion
+Jordan Miller,Evening,Business Studies,Advanced,Kinesthetic,2.88,4,Skill Improvement
+Jordan Garcia,Evening,Business Studies,Beginner,Kinesthetic,3.65,5,Assignment Completion
+Casey Garcia,Night,Psychology,Advanced,Auditory,3.39,7,Project Collaboration
+Drew Davis,Morning,Computer Science,Beginner,Auditory,2.7,5,Project Collaboration
+Quinn Jones,Morning,Chemistry,Advanced,Visual,3.78,2,Project Collaboration
+Alex Rodriguez,Evening,Psychology,Advanced,Kinesthetic,3.29,1,Concept Mastery
+Morgan Davis,Morning,Business Studies,Advanced,Auditory,3.18,1,Exam Preparation
+Taylor Smith,Night,Psychology,Intermediate,Visual,3.57,2,Project Collaboration
+Morgan Rodriguez,Night,Computer Science,Beginner,Visual,2.91,5,Project Collaboration
+Quinn Johnson,Afternoon,Biology,Advanced,Kinesthetic,3.33,7,Group Discussion
+Sam Johnson,Night,Chemistry,Intermediate,Visual,3.86,3,Skill Improvement
+Jamie Jones,Evening,Computer Science,Beginner,Practical,3.43,1,Exam Preparation
+Taylor Davis,Afternoon,Economics,Beginner,Auditory,3.32,6,Skill Improvement
+Sam Miller,Evening,History,Intermediate,Auditory,3.3,4,Assignment Completion
+Taylor Rodriguez,Evening,Biology,Beginner,Kinesthetic,3.67,1,Concept Mastery
+Quinn Rodriguez,Morning,Physics,Beginner,Verbal,1.92,2,Concept Mastery
+Taylor Smith,Morning,Physics,Advanced,Visual,3.15,4,Skill Improvement
+Casey Jones,Morning,Psychology,Intermediate,Auditory,3.07,7,Project Collaboration
+Jamie Miller,Evening,Business Studies,Intermediate,Practical,3.44,6,Skill Improvement
+Alex Miller,Evening,Psychology,Beginner,Verbal,3.51,6,Assignment Completion
+Quinn Rodriguez,Evening,English Literature,Beginner,Practical,3.53,4,Project Collaboration
+Drew Jones,Afternoon,Physics,Intermediate,Practical,3.6,2,Assignment Completion
+Quinn Miller,Afternoon,Psychology,Intermediate,Practical,3.78,4,Project Collaboration
+Jamie Johnson,Afternoon,English Literature,Beginner,Visual,3.25,3,Project Collaboration
+Jamie Jones,Evening,Chemistry,Intermediate,Visual,3.22,2,Concept Mastery
+Jordan Rodriguez,Night,Physics,Advanced,Practical,2.65,5,Exam Preparation
+Casey Rodriguez,Afternoon,Economics,Intermediate,Practical,2.83,7,Group Discussion
+Quinn Garcia,Morning,Psychology,Intermediate,Practical,3.44,6,Project Collaboration
+Jordan Miller,Night,Chemistry,Advanced,Kinesthetic,2.66,7,Assignment Completion
+Casey Martinez,Morning,English Literature,Advanced,Visual,3.13,5,Exam Preparation
+Jordan Garcia,Evening,Business Studies,Intermediate,Verbal,3.16,7,Assignment Completion
+Jamie Smith,Evening,History,Advanced,Kinesthetic,3.2,3,Skill Improvement
+Morgan Rodriguez,Evening,Biology,Beginner,Kinesthetic,2.75,7,Concept Mastery
+Taylor Miller,Evening,English Literature,Beginner,Practical,4.0,4,Project Collaboration
+Riley Miller,Night,Computer Science,Beginner,Kinesthetic,4.0,4,Exam Preparation
+Taylor Johnson,Evening,Economics,Advanced,Auditory,3.2,6,Project Collaboration
+Alex Martinez,Morning,History,Beginner,Auditory,3.41,3,Assignment Completion
+Taylor Rodriguez,Afternoon,Biology,Beginner,Visual,3.23,4,Skill Improvement
+Drew Johnson,Afternoon,History,Beginner,Verbal,2.91,5,Skill Improvement
+Riley Garcia,Afternoon,Physics,Intermediate,Verbal,3.22,6,Project Collaboration
+Riley Brown,Evening,Biology,Beginner,Auditory,2.96,2,Group Discussion
+Jordan Garcia,Afternoon,Biology,Advanced,Kinesthetic,3.39,3,Exam Preparation
+Jamie Brown,Evening,Business Studies,Advanced,Kinesthetic,2.81,3,Project Collaboration
+Jordan Martinez,Evening,Business Studies,Advanced,Practical,3.29,4,Skill Improvement
+Jamie Rodriguez,Morning,Mathematics,Beginner,Practical,3.61,7,Assignment Completion
+Jordan Brown,Afternoon,Mathematics,Beginner,Visual,2.61,3,Assignment Completion
+Taylor Rodriguez,Evening,Economics,Beginner,Auditory,3.68,3,Project Collaboration
+Sam Miller,Morning,Psychology,Advanced,Practical,2.67,2,Assignment Completion
+Sam Smith,Evening,Physics,Advanced,Visual,3.19,3,Assignment Completion
+Sam Jones,Evening,Mathematics,Beginner,Auditory,3.76,2,Concept Mastery
+Jamie Miller,Afternoon,Physics,Intermediate,Practical,3.27,7,Project Collaboration
+Alex Miller,Evening,Biology,Intermediate,Visual,3.51,3,Assignment Completion
+Morgan Davis,Morning,Business Studies,Beginner,Auditory,3.13,2,Exam Preparation
+Jordan Davis,Morning,History,Intermediate,Kinesthetic,3.0,4,Skill Improvement
+Taylor Williams,Morning,Chemistry,Advanced,Kinesthetic,3.51,6,Exam Preparation
+Drew Johnson,Night,History,Intermediate,Auditory,2.35,7,Exam Preparation
+Casey Jones,Afternoon,English Literature,Beginner,Auditory,3.51,6,Skill Improvement
+Morgan Martinez,Night,Psychology,Advanced,Verbal,3.47,6,Project Collaboration
+Casey Rodriguez,Afternoon,History,Beginner,Kinesthetic,3.11,1,Group Discussion
+Quinn Brown,Night,Physics,Intermediate,Practical,3.46,7,Group Discussion
+Taylor Davis,Morning,English Literature,Intermediate,Verbal,3.56,2,Concept Mastery
+Riley Brown,Evening,Physics,Advanced,Verbal,3.4,4,Skill Improvement
+Taylor Smith,Night,Physics,Beginner,Visual,3.64,3,Assignment Completion
+Quinn Johnson,Afternoon,History,Beginner,Practical,3.22,7,Skill Improvement
+Taylor Johnson,Evening,History,Advanced,Visual,3.29,4,Assignment Completion
+Riley Martinez,Evening,Business Studies,Advanced,Kinesthetic,2.99,6,Group Discussion
+Jamie Williams,Morning,Business Studies,Intermediate,Auditory,2.6,6,Exam Preparation
+Taylor Miller,Morning,Psychology,Beginner,Practical,2.81,3,Group Discussion
+Morgan Johnson,Night,Physics,Advanced,Auditory,3.22,2,Concept Mastery
+Taylor Martinez,Afternoon,Mathematics,Intermediate,Verbal,3.34,4,Concept Mastery
+Alex Brown,Morning,English Literature,Beginner,Auditory,3.38,7,Group Discussion
+Riley Garcia,Evening,Psychology,Intermediate,Practical,3.66,5,Group Discussion
+Morgan Johnson,Afternoon,Economics,Advanced,Kinesthetic,2.85,7,Group Discussion
+Jamie Jones,Evening,Mathematics,Intermediate,Practical,3.25,4,Skill Improvement
+Drew Smith,Night,Computer Science,Intermediate,Kinesthetic,2.88,2,Concept Mastery
+Morgan Garcia,Night,Chemistry,Beginner,Visual,4.0,1,Group Discussion
+Alex Johnson,Night,English Literature,Beginner,Auditory,3.0,2,Concept Mastery
+Jordan Smith,Morning,Psychology,Intermediate,Kinesthetic,3.73,2,Skill Improvement
+Casey Miller,Evening,Physics,Intermediate,Verbal,2.79,6,Exam Preparation
+Jordan Miller,Afternoon,English Literature,Beginner,Verbal,3.33,1,Concept Mastery
+Jamie Johnson,Evening,Physics,Beginner,Kinesthetic,3.65,4,Exam Preparation
+Alex Williams,Night,Computer Science,Intermediate,Kinesthetic,3.58,1,Group Discussion
+Alex Jones,Evening,English Literature,Intermediate,Verbal,3.13,1,Assignment Completion
+Casey Rodriguez,Evening,Psychology,Intermediate,Kinesthetic,3.78,1,Concept Mastery
+Jordan Williams,Afternoon,History,Advanced,Practical,3.55,4,Concept Mastery
+Alex Rodriguez,Afternoon,Psychology,Advanced,Verbal,3.2,2,Project Collaboration
+Morgan Miller,Evening,Economics,Advanced,Kinesthetic,3.2,1,Project Collaboration
+Sam Williams,Night,Mathematics,Advanced,Practical,3.09,7,Concept Mastery
+Riley Williams,Night,Economics,Beginner,Auditory,3.91,7,Exam Preparation
+Alex Smith,Morning,Business Studies,Advanced,Practical,3.11,1,Concept Mastery
+Jordan Smith,Evening,English Literature,Advanced,Visual,3.05,4,Project Collaboration
+Quinn Rodriguez,Afternoon,Biology,Intermediate,Practical,3.3,5,Skill Improvement
+Taylor Martinez,Evening,Economics,Advanced,Verbal,2.74,6,Skill Improvement
+Drew Smith,Night,Mathematics,Intermediate,Practical,3.53,2,Project Collaboration
+Taylor Johnson,Evening,Chemistry,Intermediate,Practical,3.29,1,Project Collaboration
+Quinn Garcia,Morning,Psychology,Beginner,Visual,3.15,2,Skill Improvement
+Casey Rodriguez,Afternoon,Chemistry,Beginner,Kinesthetic,2.78,3,Concept Mastery
+Morgan Miller,Night,Chemistry,Advanced,Auditory,4.0,2,Skill Improvement
+Riley Rodriguez,Evening,Mathematics,Advanced,Kinesthetic,3.4,5,Skill Improvement
+Drew Jones,Night,Psychology,Intermediate,Kinesthetic,2.83,2,Skill Improvement
+Casey Williams,Evening,Business Studies,Beginner,Kinesthetic,3.01,4,Skill Improvement
+Morgan Johnson,Night,Physics,Beginner,Visual,3.24,7,Skill Improvement
+Jamie Williams,Night,Biology,Intermediate,Visual,2.81,6,Assignment Completion
+Alex Jones,Afternoon,History,Intermediate,Practical,3.37,2,Group Discussion
+Taylor Rodriguez,Morning,Business Studies,Advanced,Auditory,2.82,3,Assignment Completion
+Casey Brown,Evening,Computer Science,Advanced,Verbal,3.6,2,Assignment Completion
+Drew Johnson,Night,Mathematics,Intermediate,Visual,3.42,1,Skill Improvement
+Quinn Martinez,Night,Psychology,Intermediate,Practical,3.56,4,Group Discussion
+Sam Jones,Morning,Mathematics,Beginner,Kinesthetic,2.84,1,Project Collaboration
+Jordan Jones,Morning,Psychology,Advanced,Verbal,4.0,5,Exam Preparation
+Morgan Martinez,Afternoon,Psychology,Advanced,Kinesthetic,3.44,3,Project Collaboration
+Jordan Rodriguez,Evening,Business Studies,Advanced,Practical,2.58,4,Project Collaboration
+Sam Garcia,Morning,Physics,Intermediate,Verbal,2.39,2,Skill Improvement
+Jamie Rodriguez,Afternoon,Physics,Intermediate,Verbal,2.99,5,Skill Improvement
+Riley Brown,Afternoon,Physics,Beginner,Practical,2.61,2,Exam Preparation
+Jordan Johnson,Morning,Physics,Beginner,Visual,3.23,2,Concept Mastery
+Jordan Williams,Morning,History,Beginner,Visual,2.96,5,Concept Mastery
+Casey Rodriguez,Night,Economics,Beginner,Auditory,2.95,3,Concept Mastery
+Drew Smith,Evening,Chemistry,Intermediate,Practical,3.07,4,Skill Improvement
+Morgan Rodriguez,Evening,Mathematics,Intermediate,Kinesthetic,3.15,1,Assignment Completion
+Drew Jones,Morning,Physics,Advanced,Auditory,2.54,5,Concept Mastery
+Taylor Davis,Night,Business Studies,Advanced,Verbal,2.88,5,Assignment Completion
+Jordan Davis,Night,Economics,Advanced,Verbal,3.23,7,Concept Mastery
+Riley Garcia,Night,Physics,Advanced,Visual,3.8,5,Project Collaboration
+Morgan Jones,Afternoon,Mathematics,Advanced,Auditory,3.18,2,Project Collaboration
+Drew Jones,Night,Biology,Beginner,Practical,2.5,6,Concept Mastery
+Morgan Williams,Afternoon,Physics,Intermediate,Visual,3.81,5,Exam Preparation
+Jamie Smith,Afternoon,Economics,Beginner,Practical,2.96,5,Assignment Completion
+Drew Rodriguez,Evening,Mathematics,Beginner,Verbal,3.27,5,Group Discussion
+Drew Williams,Night,English Literature,Advanced,Auditory,2.66,3,Group Discussion
+Riley Garcia,Night,English Literature,Intermediate,Auditory,3.71,4,Project Collaboration
+Drew Johnson,Evening,Economics,Advanced,Practical,2.97,4,Project Collaboration
+Taylor Davis,Night,Computer Science,Advanced,Kinesthetic,3.71,1,Project Collaboration
+Quinn Williams,Night,Economics,Beginner,Verbal,2.75,1,Project Collaboration
+Jamie Davis,Afternoon,Chemistry,Intermediate,Auditory,3.72,6,Group Discussion
+Quinn Brown,Evening,History,Beginner,Kinesthetic,3.52,7,Project Collaboration
+Sam Smith,Night,English Literature,Advanced,Verbal,3.46,7,Exam Preparation
+Morgan Garcia,Evening,Psychology,Beginner,Verbal,2.43,5,Exam Preparation
+Sam Jones,Morning,Economics,Intermediate,Verbal,2.61,5,Project Collaboration
+Drew Garcia,Evening,History,Advanced,Verbal,2.63,1,Group Discussion
+Casey Smith,Evening,Economics,Beginner,Kinesthetic,3.42,5,Assignment Completion
+Taylor Jones,Afternoon,History,Beginner,Auditory,3.43,2,Assignment Completion
+Taylor Garcia,Afternoon,Biology,Intermediate,Kinesthetic,2.82,4,Assignment Completion
+Riley Garcia,Evening,Psychology,Advanced,Visual,3.33,1,Group Discussion
+Taylor Davis,Morning,English Literature,Beginner,Verbal,2.57,2,Assignment Completion
+Jordan Rodriguez,Afternoon,Chemistry,Beginner,Practical,3.41,5,Concept Mastery
+Drew Davis,Night,History,Intermediate,Practical,3.82,6,Skill Improvement
+Jamie Martinez,Night,English Literature,Beginner,Verbal,3.57,7,Skill Improvement
+Jordan Davis,Morning,Chemistry,Advanced,Auditory,3.62,3,Group Discussion
+Alex Jones,Night,English Literature,Intermediate,Verbal,3.7,1,Assignment Completion
+Alex Miller,Morning,History,Advanced,Kinesthetic,2.46,4,Skill Improvement
+Sam Rodriguez,Evening,English Literature,Advanced,Auditory,3.29,7,Project Collaboration
+Taylor Rodriguez,Morning,Economics,Intermediate,Verbal,2.77,1,Exam Preparation
+Taylor Williams,Evening,Biology,Beginner,Kinesthetic,3.42,5,Project Collaboration
+Jamie Williams,Afternoon,Chemistry,Beginner,Verbal,3.24,3,Exam Preparation
+Jamie Smith,Morning,English Literature,Advanced,Verbal,3.42,2,Exam Preparation
+Alex Garcia,Evening,Business Studies,Intermediate,Practical,3.45,4,Group Discussion
+Taylor Miller,Evening,Biology,Intermediate,Auditory,4.0,6,Project Collaboration
+Morgan Smith,Afternoon,Psychology,Advanced,Practical,2.69,6,Concept Mastery
+Taylor Jones,Afternoon,Biology,Advanced,Verbal,2.82,7,Group Discussion
+Casey Smith,Night,Chemistry,Advanced,Auditory,3.21,4,Group Discussion
+Riley Jones,Morning,History,Intermediate,Kinesthetic,3.29,7,Skill Improvement
+Sam Davis,Night,Mathematics,Intermediate,Visual,3.42,4,Skill Improvement
+Jordan Rodriguez,Evening,Biology,Beginner,Kinesthetic,3.23,1,Skill Improvement
+Alex Williams,Afternoon,Psychology,Beginner,Auditory,3.05,6,Group Discussion
+Casey Jones,Night,Mathematics,Intermediate,Visual,3.51,4,Group Discussion
+Jordan Miller,Morning,English Literature,Advanced,Kinesthetic,3.1,4,Concept Mastery
+Sam Rodriguez,Evening,History,Advanced,Visual,2.77,2,Group Discussion
+Taylor Smith,Evening,Computer Science,Advanced,Auditory,3.21,6,Concept Mastery
+Casey Garcia,Morning,Biology,Advanced,Auditory,3.28,1,Concept Mastery
+Taylor Jones,Evening,Economics,Beginner,Auditory,2.98,1,Group Discussion
+Morgan Jones,Morning,Chemistry,Advanced,Verbal,3.18,7,Exam Preparation
+Riley Brown,Night,Biology,Intermediate,Auditory,2.66,4,Assignment Completion
+Riley Williams,Morning,Biology,Advanced,Visual,3.1,7,Group Discussion
+Riley Rodriguez,Evening,History,Advanced,Kinesthetic,3.53,2,Group Discussion
+Sam Martinez,Morning,Computer Science,Advanced,Auditory,3.59,3,Project Collaboration
+Jordan Garcia,Evening,Psychology,Advanced,Visual,3.21,6,Exam Preparation
+Quinn Jones,Evening,Psychology,Advanced,Kinesthetic,2.97,6,Concept Mastery
+Morgan Martinez,Evening,Biology,Intermediate,Auditory,3.26,7,Assignment Completion
+Casey Garcia,Evening,Chemistry,Intermediate,Verbal,3.94,1,Group Discussion
+Jamie Johnson,Afternoon,English Literature,Advanced,Verbal,3.41,6,Project Collaboration
+Casey Smith,Morning,Biology,Beginner,Verbal,3.8,7,Skill Improvement
+Jamie Williams,Afternoon,Business Studies,Beginner,Practical,3.26,3,Group Discussion
+Drew Johnson,Night,Computer Science,Intermediate,Visual,3.17,2,Skill Improvement
+Jordan Williams,Night,Business Studies,Advanced,Verbal,3.89,1,Project Collaboration
+Alex Johnson,Night,Physics,Beginner,Visual,3.14,4,Assignment Completion
+Riley Williams,Morning,Chemistry,Beginner,Verbal,2.47,2,Skill Improvement
+Quinn Garcia,Night,Psychology,Advanced,Visual,2.43,5,Project Collaboration
+Taylor Johnson,Afternoon,Mathematics,Intermediate,Visual,2.78,2,Assignment Completion
+Drew Brown,Afternoon,Psychology,Beginner,Kinesthetic,3.83,3,Assignment Completion
+Quinn Miller,Night,History,Intermediate,Visual,3.32,5,Project Collaboration
+Casey Rodriguez,Afternoon,Psychology,Intermediate,Visual,2.66,4,Skill Improvement
+Riley Davis,Evening,Physics,Intermediate,Auditory,3.59,1,Assignment Completion
+Riley Martinez,Afternoon,English Literature,Beginner,Practical,3.48,7,Group Discussion
+Alex Jones,Evening,Chemistry,Intermediate,Practical,3.04,6,Concept Mastery
+Taylor Miller,Evening,Computer Science,Intermediate,Verbal,3.66,1,Project Collaboration
+Drew Johnson,Night,Physics,Advanced,Kinesthetic,2.96,3,Concept Mastery
+Quinn Jones,Morning,English Literature,Advanced,Auditory,2.9,1,Group Discussion
+Jordan Rodriguez,Morning,Psychology,Beginner,Verbal,3.53,7,Exam Preparation
+Drew Smith,Evening,Psychology,Intermediate,Practical,3.0,4,Project Collaboration
+Sam Miller,Evening,Economics,Beginner,Kinesthetic,2.95,2,Concept Mastery
+Morgan Williams,Morning,Computer Science,Beginner,Visual,3.16,4,Group Discussion
+Jamie Williams,Afternoon,Business Studies,Intermediate,Verbal,3.64,5,Exam Preparation
+Jamie Williams,Evening,Computer Science,Beginner,Kinesthetic,3.55,2,Concept Mastery
+Morgan Davis,Evening,Computer Science,Beginner,Kinesthetic,3.13,4,Skill Improvement
+Drew Martinez,Evening,History,Advanced,Visual,3.47,3,Assignment Completion
+Morgan Rodriguez,Afternoon,Computer Science,Advanced,Practical,3.54,6,Group Discussion
+Taylor Miller,Morning,English Literature,Advanced,Kinesthetic,3.83,1,Skill Improvement
+Sam Davis,Evening,Mathematics,Beginner,Kinesthetic,3.27,3,Concept Mastery
+Morgan Garcia,Afternoon,Mathematics,Advanced,Kinesthetic,4.0,2,Project Collaboration
+Taylor Smith,Morning,Computer Science,Advanced,Visual,3.37,7,Project Collaboration
