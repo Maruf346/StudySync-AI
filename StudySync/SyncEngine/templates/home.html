@@ -24,22 +24,46 @@
         <h2>Upload Student CSV</h2>
         <p>Upload a CSV file to auto-generate optimized study groups.</p>
         <div class="upload-wrapper">
-            <label for="file-upload" class="upload-box">
-              <div class="upload-icon">📁</div>
-              <p class="upload-text">Drag & Drop your CSV here or <span class="upload-browse">Browse</span></p>
-              <input id="file-upload" type="file" accept=".csv" required>
-            </label>
-            <button type="submit" class="analyze-btn">Analyze</button>
+            <form id="upload-form" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <label for="file-upload" class="upload-box">
+                    <div class="upload-icon">📁</div>
+                    <p class="upload-text">Drag & Drop your CSV here or <span class="upload-browse">Browse</span></p>
+                    <input id="file-upload" name="csv_file" type="file" accept=".csv" required>
+                </label>
+                <button type="submit" class="analyze-btn">Analyze</button>
+            </form>            
         </div>          
         
         <!-- Result Section -->
-        <div id="result-section" class="hidden">
+        <div id="result-section" {% if result_data %}style="display:block"{% else %}class="hidden"{% endif %}>
             <h3>📊 Grouping Result</h3>
             <div class="result-content">
-                <!-- AI result will be displayed here -->
-                <p>Results will be shown here after analysis.</p>
+                {% if result_data %}
+                    <table>
+                        <thead>
+                            <tr>
+                                {% for col in result_data.0.keys %}
+                                <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in result_data %}
+                            <tr>
+                                {% for val in row.values %}
+                                <td>{{ val }}</td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <p>Results will be shown here after analysis.</p>
+                {% endif %}
             </div>
         </div>
+        
     </div>
 
 </body>
