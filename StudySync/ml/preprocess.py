@@ -28,16 +28,8 @@ def load_and_preprocess():
     print("✂️  Dropped column: Name")
 
     # Categorical columns
-    cat_cols = ["StudyTime", "SubjectInterest", "LearningStyle", "GoalType"]
+    cat_cols = ["StudyTime", "SubjectInterest", "LearningStyle", "GoalType", "SkillLevel"]
     print(f"🔤 Encoding columns: {cat_cols}  +  SkillLevel (ordered)")
-
-    # 1) SkillLevel → LabelEncoder
-    skill_encoder = LabelEncoder()
-    df["SkillLevel"] = skill_encoder.fit_transform(df["SkillLevel"].astype(str))
-    os.makedirs(ENCODER_DIR, exist_ok=True)
-    skill_path = os.path.join(ENCODER_DIR, "skilllevel_encoder.pkl")
-    joblib.dump(skill_encoder, skill_path)
-    print(f"💾 Saved LabelEncoder → {skill_path}")
 
     # 2) One‑Hot + MinMaxScaler in a pipeline
     onehot = ColumnTransformer(
