@@ -1,33 +1,67 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 import os
 import joblib
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
 
-# 1. Load the dataset
-df = pd.read_csv("ml/data/studysync_training_dataset.csv")
+print("🛠️  preprocess.py is running!")
+print("🔄 Preprocessing data...")
+# Paths
+BASE_DIR = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml"
+DATA_PATH = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml\\data\\studysync_training_dataset.csv"
+ENCODER_DIR = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml\\encoders"
 
-# 2. Drop Name column (not useful for model)
-df = df.drop(columns=['Name'])
+def load_and_preprocess():
+    print(f"✅ Base dir:   {BASE_DIR}")
+    print(f"✅ Data path:  {DATA_PATH}")
+    print(f"✅ Encoder dir:{ENCODER_DIR}")
 
-# 3. Encode categorical columns
-label_cols = ['StudyTime', 'SubjectInterest', 'SkillLevel', 'LearningStyle', 'GoalType']
-encoders = {}
+    # Check data file exists
+    if not os.path.isfile(DATA_PATH):
+        raise FileNotFoundError(f"Data file not found at {DATA_PATH}")
+    df = pd.read_csv(DATA_PATH)
+    print(f"🗒  Loaded dataset: {df.shape[0]} rows, {df.shape[1]} columns")
 
-for col in label_cols:
-    le = LabelEncoder()
-    df[col] = le.fit_transform(df[col])
-    encoders[col] = le  # Save encoder for later use (during predictions)
+    # Drop Name
+    df = df.drop(columns=["Name"], errors='ignore')
+    print("✂️  Dropped column: Name")
 
-# 4. Normalize GPA (0 to 1 scale)
-scaler = MinMaxScaler()
-df['GPA'] = scaler.fit_transform(df[['GPA']])
+    # Categorical columns
+    cat_cols = ["StudyTime", "SubjectInterest", "LearningStyle", "GoalType"]
+    print(f"🔤 Encoding columns: {cat_cols}  +  SkillLevel (ordered)")
 
-# Final preprocessed dataset
-print(df.head())
+    # 1) SkillLevel → LabelEncoder
+    skill_encoder = LabelEncoder()
+    df["SkillLevel"] = skill_encoder.fit_transform(df["SkillLevel"].astype(str))
+    os.makedirs(ENCODER_DIR, exist_ok=True)
+    skill_path = os.path.join(ENCODER_DIR, "skilllevel_encoder.pkl")
+    joblib.dump(skill_encoder, skill_path)
+    print(f"💾 Saved LabelEncoder → {skill_path}")
 
-# (Optional) Save the encoders and scaler for later use with test/user-uploaded data
+    # 2) One‑Hot + MinMaxScaler in a pipeline
+    onehot = ColumnTransformer(
+        [("ohe", OneHotEncoder(sparse_output=False, handle_unknown="ignore", categories="auto"), cat_cols)],
+        remainder="passthrough"
+    )
+    scaler = MinMaxScaler()
+    pipeline = Pipeline([
+        ("onehot", onehot),
+        ("scale", scaler)
+    ])
 
-os.makedirs("ml/encoders", exist_ok=True)
-for col, le in encoders.items():
-    joblib.dump(le, f"ml/encoders/{col}_encoder.pkl")
-joblib.dump(scaler, "ml/encoders/gpa_scaler.pkl")
+    print("🔄 Fitting pipeline...")
+    data_processed = pipeline.fit_transform(df)
+    pipeline_path = os.path.join(ENCODER_DIR, "full_preprocessing_pipeline.pkl")
+    joblib.dump(pipeline, pipeline_path)
+    print(f"💾 Saved full pipeline → {pipeline_path}")
+
+    print(f"🎉 Preprocessing complete. Processed shape: {data_processed.shape}")
+    return data_processed
+
+if __name__ == "__main__":
+    try:
+        load_and_preprocess()
+    except Exception as e:
+        print(f"❗ Error during preprocessing:\n{e}")
+        raise
