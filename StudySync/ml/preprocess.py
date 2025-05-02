@@ -8,9 +8,9 @@ from sklearn.pipeline import Pipeline
 print("🛠️  preprocess.py is running!")
 print("🔄 Preprocessing data...")
 # Paths
-BASE_DIR = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml"
-DATA_PATH = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml\\data\\studysync_training_dataset.csv"
-ENCODER_DIR = "C:\\Users\\user\\OneDrive\\Documents\\StudySync-AI\\StudySync\\ml\\encoders"
+BASE_DIR = "C:\\Users\\user\\OneDrive\\Documents\\My Projects\\StudySync-AI\\StudySync\\ml"
+DATA_PATH = "C:\\Users\\user\\OneDrive\\Documents\\My Projects\\StudySync-AI\\StudySync\\ml\\data\\studysync_training_dataset.csv"
+ENCODER_DIR = "C:\\Users\\user\\OneDrive\\Documents\\My Projects\\StudySync-AI\\StudySync\\ml\\encoders"
 
 def load_and_preprocess():
     print(f"✅ Base dir:   {BASE_DIR}")
