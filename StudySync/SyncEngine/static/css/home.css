@@ -195,17 +195,19 @@ body {
 
 .export-btn {
     margin-bottom: 10px;
-    background-color: #463221;
-    color: white;
-    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 3px solid #463221;
+    font-weight: 600;
     padding: 10px 18px;
-    font-size: 14px;
-    border-radius: 6px;
+    font-size: 16px;
+    border-radius: 9px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .export-btn:hover {
-    background-color: #5a402d;
+    background-color: #d5d5d5;
+    font-weight: 700;
 }
 
 
