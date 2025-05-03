@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudySync</title>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -62,6 +63,9 @@
                             {% endfor %}
                         </tbody>
                     </table>
+                    <div class="chart-container">
+                        <canvas id="clusterPieChart"></canvas>
+                    </div>                    
                 {% else %}
                     <p>Results will be shown here after analysis.</p>
                 {% endif %}
@@ -69,6 +73,43 @@
         </div>
         
     </div>
+
+    {% if cluster_counts_json %}
+        <script>
+            const ctx = document.getElementById('clusterPieChart').getContext('2d');
+
+            const clusterCounts = {{ cluster_counts_json|safe }};
+            const labels = Object.keys(clusterCounts);
+            const dataValues = Object.values(clusterCounts);
+
+            const data = {
+                labels: labels,
+                datasets: [{
+                    label: 'Cluster Distribution',
+                    data: dataValues,
+                    backgroundColor: ['#f94144', '#f3722c', '#90be6d', '#577590', '#277da1'],
+                    borderWidth: 1
+                }]
+            };
+
+            const config = {
+                type: 'pie',
+                data: data,
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            };
+
+            new Chart(ctx, config);
+        </script>
+        {% endif %}
+
+
 
 </body>
 </html>

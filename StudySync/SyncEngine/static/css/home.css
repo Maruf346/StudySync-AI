@@ -211,6 +211,22 @@ body {
 }
 
 
+.chart-container {
+  max-width: 500px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  background: #fff;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#clusterPieChart {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Responsive */
 @media (max-width: 600px) {
     .file-input {
