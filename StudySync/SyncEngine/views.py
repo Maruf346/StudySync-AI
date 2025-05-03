@@ -14,15 +14,17 @@ def home(request):
         csv_file = request.FILES['csv_file']
         try:
             df = pd.read_csv(csv_file)
-            result_df = predict_cluster(df)
             # After clustered_df = predict_cluster(df)
-            clustered_df = result_df
+            clustered_df = predict_cluster(df)
+            col = 'cluster' if 'cluster' in clustered_df.columns else 'Cluster'
+            clustered_df = clustered_df.sort_values(by=col).reset_index(drop=True)
+            
             col = 'cluster' if 'cluster' in clustered_df.columns else 'Cluster'
             cluster_counts = clustered_df[col].value_counts().sort_index().to_dict()
 
 
-            # Convert DataFrame to list of dicts for template rendering
-            result_data = result_df.to_dict(orient='records')
+            # Convert the *sorted* DataFrame to list of dicts
+            result_data = clustered_df.to_dict(orient='records')
 
             # SAVE INTO SESSION:
             request.session['result_data'] = result_data

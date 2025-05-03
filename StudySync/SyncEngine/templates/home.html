@@ -63,9 +63,14 @@
                             {% endfor %}
                         </tbody>
                     </table>
+
+                    <h2>Visualization on Pie Chart</h2>
+                    <p>This chart visualizes the distribution of study groups based on the uploaded data.</p>
                     <div class="chart-container">
                         <canvas id="clusterPieChart"></canvas>
-                    </div>                    
+                    </div>
+                    <button id="saveChartBtn" class="export-btn">🖼️ Save Chart as PNG</button>
+                    
                 {% else %}
                     <p>Results will be shown here after analysis.</p>
                 {% endif %}
@@ -77,11 +82,11 @@
     {% if cluster_counts_json %}
         <script>
             const ctx = document.getElementById('clusterPieChart').getContext('2d');
-
+        
             const clusterCounts = {{ cluster_counts_json|safe }};
             const labels = Object.keys(clusterCounts);
             const dataValues = Object.values(clusterCounts);
-
+        
             const data = {
                 labels: labels,
                 datasets: [{
@@ -91,7 +96,7 @@
                     borderWidth: 1
                 }]
             };
-
+        
             const config = {
                 type: 'pie',
                 data: data,
@@ -104,9 +109,18 @@
                     }
                 }
             };
-
-            new Chart(ctx, config);
+        
+            const myChart = new Chart(ctx, config);
+        
+            // 🖼️ Save as PNG Handler
+            document.getElementById('saveChartBtn').addEventListener('click', function() {
+                const link = document.createElement('a');
+                link.href = myChart.toBase64Image();
+                link.download = 'cluster_distribution.png';
+                link.click();
+            });
         </script>
+    
         {% endif %}
 
 

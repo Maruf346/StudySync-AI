@@ -144,6 +144,14 @@ body {
     margin-bottom: 15px;
 }
 
+#result-section h2 {
+  color: #463221;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .result-content p {
     color: #444;
     font-size: 15px;
@@ -212,19 +220,28 @@ body {
 
 
 .chart-container {
-  max-width: 500px;
-  margin: 40px auto 0 auto;
+  max-width: 350px;
+  margin: 20px auto 0 auto;
   padding: 20px;
   background: #fff;
   border: 1.5px solid #e0e0e0;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  margin-bottom: 15px;
 }
 
 #clusterPieChart {
   width: 100%;
   height: auto;
 }
+
+.chart-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 
 
 /* Responsive */
