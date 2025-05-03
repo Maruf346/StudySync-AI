@@ -40,6 +40,10 @@
             <h3>📊 Grouping Result</h3>
             <div class="result-content">
                 {% if result_data %}
+                    <form method="post" action="{% url 'export_csv' %}">
+                        {% csrf_token %}
+                        <button type="submit" class="export-btn">⬇️ Export as CSV</button>
+                    </form>
                     <table>
                         <thead>
                             <tr>

@@ -193,6 +193,21 @@ body {
   overflow-x: auto;
 }
 
+.export-btn {
+    margin-bottom: 10px;
+    background-color: #463221;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.export-btn:hover {
+    background-color: #5a402d;
+}
+
 
 /* Responsive */
 @media (max-width: 600px) {

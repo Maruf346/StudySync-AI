@@ -23,4 +23,5 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.about, name='about'),
+    path('export_csv/', views.export_csv, name='export_csv'),
 ]
