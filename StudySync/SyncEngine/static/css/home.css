@@ -150,6 +150,50 @@ body {
     margin: 0;
 }
 
+/* Table Styling inside Result Section */
+#result-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 14px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table Header */
+#result-section th {
+  background-color: #463221;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px 15px;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table Body Cells */
+#result-section td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+/* Zebra Striping */
+#result-section tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* Hover Effect */
+#result-section tr:hover {
+  background-color: #e9f5ff;
+}
+
+/* Scrollable Table Wrapper (Optional for overflow) */
+.result-content {
+  overflow-x: auto;
+}
+
+
 /* Responsive */
 @media (max-width: 600px) {
     .file-input {
