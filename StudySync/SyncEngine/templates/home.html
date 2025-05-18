@@ -12,6 +12,12 @@
 </head>
 <body>
 
+    {% if error %}
+        <div class="error-box">
+            <strong>Error:</strong> {{ error }}
+        </div>
+    {% endif %}
+
     <!-- Hero Banner -->
     <div class="banner">
         <div class="banner-content">

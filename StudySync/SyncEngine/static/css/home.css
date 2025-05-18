@@ -242,6 +242,15 @@ body {
   margin-top: 20px;
 }
 
+.error-box {
+  margin: 20px auto;
+  max-width: 90%;
+  padding: 10px;
+  border: 1px solid #e00;
+  background: #fee;
+  color: #900;
+  border-radius: 5px;
+}
 
 
 /* Responsive */

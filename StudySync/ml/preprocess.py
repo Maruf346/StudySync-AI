@@ -1,9 +1,11 @@
 import pandas as pd
 import os
 import joblib
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OrdinalEncoder
+
 
 print("🛠️  preprocess.py is running!")
 print("🔄 Preprocessing data...")
@@ -27,25 +29,24 @@ def load_and_preprocess():
     df = df.drop(columns=["Name"], errors='ignore')
     print("✂️  Dropped column: Name")
 
-    # Categorical columns
-    cat_cols = ["StudyTime", "SubjectInterest", "LearningStyle", "GoalType", "SkillLevel"]
-    print(f"🔤 Encoding columns: {cat_cols}  +  SkillLevel (ordered)")
+    ordinal_cols = ["SkillLevel"]
+    onehot_cols = ["StudyTime", "SubjectInterest", "LearningStyle", "GoalType"]
+    numeric_cols = ["GPA", "AvailabilityDays"]
 
-    # 2) One‑Hot + MinMaxScaler in a pipeline
-    onehot = ColumnTransformer(
-        [("ohe", OneHotEncoder(sparse_output=False, handle_unknown="ignore", categories="auto"), cat_cols)],
-        remainder="passthrough"
-    )
-    scaler = MinMaxScaler()
-    pipeline = Pipeline([
-        ("onehot", onehot),
-        ("scale", scaler)
-    ])
+    preprocessor = ColumnTransformer(
+            transformers=[
+                ("ordinal", OrdinalEncoder(categories=[["Beginner", "Intermediate", "Advanced"]]), ordinal_cols),
+                ("onehot", OneHotEncoder(sparse_output=False, handle_unknown="ignore"), onehot_cols),
+                ("num", MinMaxScaler(), numeric_cols)
+            ],
+            remainder='drop'
+        )
 
     print("🔄 Fitting pipeline...")
-    data_processed = pipeline.fit_transform(df)
+    data_processed = preprocessor.fit_transform(df)
+
     pipeline_path = os.path.join(ENCODER_DIR, "full_preprocessing_pipeline.pkl")
-    joblib.dump(pipeline, pipeline_path)
+    joblib.dump(preprocessor, pipeline_path)
     print(f"💾 Saved full pipeline → {pipeline_path}")
 
     print(f"🎉 Preprocessing complete. Processed shape: {data_processed.shape}")

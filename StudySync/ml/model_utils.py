@@ -1,7 +1,8 @@
 import os
 import joblib
 import pandas as pd
-from sklearn.cluster import KMeans
+# from sklearn.cluster import KMeans
+from ml.manual_kmeans import ManualKMeans
 
 
 # Paths (adjust if needed)
@@ -36,7 +37,7 @@ def train_kmeans(
     n_clusters: int = 5,
     random_state: int = 42,
     **kmeans_kwargs
-) -> KMeans:
+) -> ManualKMeans:
     """
     Loads your training CSV, preprocesses it, fits a KMeans model,
     saves it to disk, and returns the fitted model.
@@ -49,7 +50,8 @@ def train_kmeans(
 
     # 3. Fit KMeans
     print(f"⚙️  Training KMeans with k={n_clusters}…")
-    kmeans = KMeans(n_clusters=n_clusters, random_state=random_state, **kmeans_kwargs)
+    kmeans = ManualKMeans(n_clusters=n_clusters, random_state=random_state)
+
     kmeans.fit(X)
 
     # 4. Save it
