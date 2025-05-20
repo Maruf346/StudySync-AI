@@ -49,7 +49,7 @@ def train_kmeans(
     X = predict_preprocess(data_raw)
 
     # 3. Fit KMeans
-    print(f"⚙️  Training KMeans with k={n_clusters}…")
+    print(f"Training KMeans with k={n_clusters}…")
     kmeans = ManualKMeans(n_clusters=n_clusters, random_state=random_state)
 
     kmeans.fit(X)
@@ -57,7 +57,7 @@ def train_kmeans(
     # 4. Save it
     os.makedirs(ENCODER_DIR, exist_ok=True)
     joblib.dump(kmeans, KMEANS_PATH)
-    print(f"💾 Saved KMeans model → {KMEANS_PATH}")
+    print(f"Saved KMeans model → {KMEANS_PATH}")
 
     return kmeans
 
